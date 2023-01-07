@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rebeccapurple;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+}
+.container{
+    background-color: rgba(241, 231, 231, 0.3);
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    border-radius: 15px;
+    width: 65%;
+    text-align: center;
+    color: darkgreen;
+}
+
+.heading{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: aliceblue;
+    /* letter-spacing: 2px; */
+}
+
+.joke{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px;
+    color: rgb(213, 221, 228);
+
+}
+
+
+ .btn{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px;
+    background-color:rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    width: 300px;
+    color: darkgreen;
+ }
+ .btn:hover{
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    transition: all 300ms ease;
+ }
