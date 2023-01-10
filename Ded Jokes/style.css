@@ -25,9 +25,7 @@ body{
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    color: aliceblue;
-    /* letter-spacing: 2px; */
+    
 }
 
 .joke{
@@ -48,7 +46,7 @@ body{
     background-color:rgba(255,255,255,.3);
     border-color: rgba(255,255,255,.6);
     text-transform: uppercase;
-    width: 300px;
+    
     color: darkgreen;
  }
  .btn:hover{
