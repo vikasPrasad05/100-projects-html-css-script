@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.animeimg{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    border-radius: 50%;
+    border: 3px solid black;
+    
+}
+.container{
+    background:aliceblue;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+
+}
+.btn{
+    margin: 15px;
+    width: 100px;
+    height: 35px;
+    background-color:blanchedalmond;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.name{
+    margin: 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 17px;
+    
+}
+.anime{
+    display: none;
+}
