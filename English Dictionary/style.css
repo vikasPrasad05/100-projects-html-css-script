@@ -18,13 +18,14 @@ body{
     max-width: 450px;
     text-align: center;
     font-size: 18px;
-    font-weight: 500;
+   
 
 
 }
 .audio{
     border-radius: 10px;
-    transform: translate3d();
+    
+
 }
 .heading{
     font-size: 28px;
