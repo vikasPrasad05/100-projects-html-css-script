@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: lightblue;
+    background-color: rgb(141, 148, 150);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -10,29 +10,33 @@ body{
 .animeimg{
     height: 300px;
     width: 300px;
-    border-radius: 25px;
+    border-radius: 15px;
     border-radius: 50%;
     border: 3px solid black;
     
 }
-.container{
+.animecontainer{
     background:aliceblue;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(231, 210, 210);
     width: 350px;
     padding: 10px;
     margin: 5px;
     align-items: center;
     text-align: center;
+    box-shadow:  10px 10px 30px 2px rgb(71, 70, 70);
 
 }
 .btn{
     margin: 15px;
-    width: 100px;
-    height: 35px;
+    width: 200px;
+    height: 40px;
     background-color:blanchedalmond;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 19px;
+    border: 2px solid blue;
+   
+
 }
 .name{
     margin: 20px;
@@ -45,4 +49,14 @@ body{
 }
 .anime{
     display: none;
+}
+.animecontainer:hover{
+    transition: 1s;
+    background-color: rgb(166, 162, 170);
+
+}
+.btn:hover{
+    background-color: rgb(158, 166, 189);
+    transition:0.2s;
+    color: blue;
 }
