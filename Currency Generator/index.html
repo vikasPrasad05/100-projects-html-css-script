@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="currency">
+            <select id="first">
+            <option value="AUD">AUD</option>
+            <!-- <option value="CDA">CDA</option> -->
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="INR">INR</option>
+            <option value="JPY">JPY</option>
+            <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" id="worth1" value="1" min="0">
+        </div>
+        <div class="currency">
+            <select id="second">
+            <option value="AUD">AUD</option>
+            <!-- <option value="CDA">CDA</option> -->
+            <option value="EUR">EUR</option>
+            <option value="GPB">GBP</option>
+            <option value="INR" selected>INR</option>
+            <option value="JPY">JPY</option>
+            <option value="USD">USD</option>
+            </select>
+            <input type="number" id="worth2" disabled>
+        </div>
+        <P class="exchange" id="exchange">1 USD = 138.5802 JPY</P>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
