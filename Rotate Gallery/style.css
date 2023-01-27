@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.image{
+   
+    position: relative;
+    width: 200px;
+    height: 200px; 
+    transform-style: preserve-3d ;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.7s;
+    
+}
+
+span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 7px;
+   
+}
+
+.content-btn{
+    position: relative;
+    display: flex;
+
+
+    
+   
+}
+
+.btn{
+    position: absolute;
+    width: 100px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px ;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 130px;
+   
+}
+
+.btn:hover{
+    filter: brightness(1.5);
+}
+
+#prev{
+    right: 20%;
+}
+#next{
+    left: 50%;
+    
+}
