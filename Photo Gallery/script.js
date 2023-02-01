@@ -8,9 +8,9 @@ const galleryEl = document.getElementById("gallery")
 async function fetchImage(){
     const inputValue = document.getElementById("input").value
 
-    if(inputValue >10 || inputValue <1){
+    if(inputValue >20 || inputValue <1){
         errormessage.style.display = "block"
-        errormessage.innerText = "Number should be between 0 and 11"
+        errormessage.innerText = "Number should be between 0 and 20"
         return
     }
 

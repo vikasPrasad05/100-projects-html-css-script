@@ -1,21 +1,22 @@
 body{
     margin: 0px;
-    background: linear-gradient(to top,lightgreen, lightpink);
+    background: grey;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     /* height: 100vh; */
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: none;
     
 
 }
 
 .gallery img{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 7px;
+    border-radius: 60px 5px;
     margin: 8px;
     
 }
@@ -63,6 +64,7 @@ h2{
     font-size: 18px;
     border-radius: 7px;
     color: rgb(255, 255, 255);
+    
 
 
 }
