@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+
+    
+}
+
+
+.main-box{
+    min-height: 100vh;
+    background: rgb(158,192,209);
+    background: linear-gradient(60deg, rgba(158,192,209,1) 49%, rgba(56,151,207,1) 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+   
+    color : rgb(78, 204, 213);
+    /* padding: 20px; */
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    background-color:#3f4e4c;
+    margin: 20px 20px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    width: 500px;
+    overflow: hidden;
+}
+
+h2{
+    margin: 10px;
+}
+
+.count{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border-bottom: 1px solid rgb(83, 79, 79); */
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    overflow: hidden;
+   
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .count{
+    flex-direction: column;
+  }
+}
+
+.count div{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid rgb(122, 122, 122);
+    /* box-shadow: 0px 0px 2px rgb(206, 205, 205) ; */
+     background-color:#242833;
+    
+}
+
+#options{
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.game{
+    padding: 10px 20px;
+    display: flex; 
+    /* justify-content:space-around; */
+    width: 100%;
+    
+    /* /* align-items: center; */
+    justify-content: center; }
+
+
+    @media only screen and (max-width: 600px) {
+        .game{
+            flex-direction: column;
+        }
+      }
+         
+
+
+h3{
+    display: inline;
+    color: white;
+}
+
+input{
+    /* padding: 10px; */
+    width: 100px;
+    /* border-radius: 7px; */
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+    background-color: #2f2e2e;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+}
+
+
+
+.btn{
+    border-radius: 7px;
+    margin-left: 10px;width: 100px;
+    background-color: rgb(45, 41, 41);
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(9, 9, 9);
+    transition: 0.3s;
+}
+
+.submit{
+    width: 100px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: aqua;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .input{
+        flex-direction: column;
+    }
+    
+}
