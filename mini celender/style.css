@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+    user-select: none;
+}
+
+.container{
+    background-color: rgb(234, 234, 234);
+    width: 230px;
+    text-align: center;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgb(202, 199, 199);
+    /* border:0.51px dotted rgb(0, 0, 0); */
+    border-radius: 3%;  
+}
+
+.month{
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: #fff;
+}
+
+p{
+    padding: 8px;
+}
+
+.day-no{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.year{
+    opacity: 0.5;
+    margin-top: -20px;
+}

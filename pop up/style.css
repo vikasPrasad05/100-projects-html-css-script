@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    transition: filter .5s;
+}
+h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    width: 180px;
+    cursor: pointer;
+    background-color: rgb(189, 207, 222);
+    font-size: 1.5rem;
+    transition: .3s;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.4);
+}
+.btn:hover{
+    background: rgb(121, 121, 184);
+}
+.active.container{
+    filter: blur(5px) brightness(.7);
+}
+
+.popup-container{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 280px;
+    top: 30%;
+    background-color: rgb(137, 167, 192);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 0 0 6px rgb(0, 0, 0);
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+h3{
+    font-size: 40px;
+    margin:10px 0;
+    color: blue;
+}
+
+label{
+    color: blue;
+}
+
+.popup-btn{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+}
+input{
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+}
+input::placeholder{
+    color: lightgray;
+}
+
+.close-icone{
+    position:absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-icone:hover{
+    color: rgb(239, 33, 33);
+}
+
+.active.popup-container{
+    visibility: hidden;
+    opacity: 0;
+    top: 10%;
+}

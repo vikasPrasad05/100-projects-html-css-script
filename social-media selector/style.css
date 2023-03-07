@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(223, 239, 252);
+    user-select: none;
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    display: flex;
+    /* height: 60px; */
+    font-size: 17px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 3px 3px  10px rgba(0,0,0,.3);
+    border: none;
+    cursor: pointer;
+}
+.menu p{
+    margin: 0 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.social-list{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    /* padding: 10px; */
+    list-style-type: none;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 3px 3px  10px rgba(0,0,0,.3);
+    transition: transform .6s ease;
+   
+    
+}
+
+.social-list li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+     margin: 20px;
+    padding: 10px; 
+    /* transition: padding 2s linear; */
+    
+}
+
+.social-list li:hover{
+    background-color: rgb(204, 201, 201);
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.social-list li .fa-brands{
+    margin: 0 15px;
+}
+
+.rotate .fa-solid{
+    transform: rotate(180deg);
+}
+.hide{
+    visibility: hidden;
+}
+.menu .fa-solid{
+    transition: .6s;
+}
