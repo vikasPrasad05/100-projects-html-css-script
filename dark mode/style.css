@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.label{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(197, 195, 195);
+    border-radius: 22px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+}
+
+.input{
+    visibility: hidden;
+}
+
+.gola{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 5px;
+    position: absolute;
+    left: 5px;
+    animation: toggleOff 0.3s linear forwards;
+    
+}
+
+
+.input:checked + .label{
+    background-color: rgb(255, 255, 255);
+}
+
+.input:checked + .label .gola{
+    animation: toggleOn 0.3s linear forwards;
+    background-color: black;
+}
+@keyframes toggleOn{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(40px);
+    }
+}
+
+@keyframes toggleOff{
+    0%{
+        transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,85 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    user-select: none;
+    
+}
+
+.form{
+    position: absolute;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(224, 238, 250);
+    
+}
+
+.input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(28, 217, 255);
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 2px 2px 8px rgba(0,0,0,.2); */
+
+}
+
+.input::placeholder{
+    color: rgb(198, 198, 198);
+}
+
+.list{
+    padding: 0;
+    margin: 0;
+
+}
+
+.list li{
+    list-style-type: none;
+    padding: 20px;
+    border-top: 1px solid ;
+    border-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+.list li .fa-trash{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.list li .fa-square-check{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.list li.check{
+    color: rgb(255, 37, 37);
+    text-decoration: line-through;
+}
+
+.list li.check .fa-square-check{
+    color: rgb(254, 42, 42);
+}
